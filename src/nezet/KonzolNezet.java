@@ -1,5 +1,8 @@
 
-package app;
+package nezet;
+
+import modell.Film;
+import modell.Filmek;
 
 
 public class KonzolNezet {

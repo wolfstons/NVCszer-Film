@@ -1,5 +1,5 @@
 
-package app;
+package modell;
 
 public class Film {
 
