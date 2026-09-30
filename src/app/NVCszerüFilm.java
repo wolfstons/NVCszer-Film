@@ -1,6 +1,8 @@
 
 package app;
 
+import modell.Filmek;
+import nezet.KonzolNezet;
 import java.util.ArrayList;
 
 public class NVCszerüFilm {
