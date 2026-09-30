@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Filmek {
+public class Filmek {   
 
     private ArrayList<Film> filmek = new ArrayList<>();
 
@@ -22,18 +22,17 @@ public class Filmek {
         }
     }
 
-    public ArrayList<Film> getFilmek() {
+    /*public ArrayList<Film> getFilmek() {
         ArrayList<Film> masolat = new ArrayList<>(filmek);
         return masolat;
-    }
+    }*/
 
     public void felvesz(Film film) {
         filmek.add(film);
     }
 
-    public List<Film> getFilMek() {
-        ArrayList<Film> masolat = new ArrayList<>(filmek);
-        Collections.sort(masolat);
-        return masolat;
-    }
+    public List<Film> getFilmek() {
+        return Collections.unmodifiableList(filmek);
+    }  
+
 }
