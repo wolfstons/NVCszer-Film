@@ -6,6 +6,7 @@ import java.io.IOException;
 import modell.Filmek;
 import nezet.KonzolNezet;
 import nezet.TablazatNezet;
+import nezet.Csvnezet;
 
 import nezet.HtmlNezet;
 
@@ -18,6 +19,7 @@ public class NVCszerüFilm {
     new KonzolNezet(filmek).megjelenit();
     new TablazatNezet(filmek).megjelenit();
     new HtmlNezet(filmek).megjelenit();
+    new Csvnezet(filmek).megjelenit();
 
     }
 
